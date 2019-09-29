@@ -40,6 +40,7 @@ import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.example.eq_app.adapter.LocationRecyclerViewAdapter;
 import com.mapbox.api.directions.v5.DirectionsCriteria;
 import com.mapbox.api.directions.v5.MapboxDirections;
 import com.mapbox.api.directions.v5.models.DirectionsResponse;
@@ -132,16 +133,6 @@ public class MapActivity extends AppCompatActivity implements
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_map);
-    }
-}
-
-
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-
         // Mapbox access token. Configuration can either be called in the application
         // class or in the same activity which contains the mapview.
         Mapbox.getInstance(this, getString(R.string.access_token));
@@ -152,7 +143,6 @@ public class MapActivity extends AppCompatActivity implements
 
         // Inflate the layout with the the MapView. Always inflate this after the Mapbox access token is configured.
         setContentView(R.layout.activity_map);
-
         // Create a GeoJSON feature collection from the GeoJSON file in the assets folder.
         try {
             getFeatureCollectionFromJson();
@@ -259,8 +249,7 @@ public class MapActivity extends AppCompatActivity implements
             }
         });
     }
-
-
+}
     @Override
     public boolean onMapClick(@NonNull LatLng point) {
         handleClickIcon(mapboxMap.getProjection().toScreenLocation(point));
