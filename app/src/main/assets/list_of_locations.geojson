@@ -1,0 +1,91 @@
+﻿{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Evacuation Center",
+        "name": "Millenium Park"
+        "hours": "",
+        "phone": ""
+      },
+      "geometry": {
+        "coordinates": [
+          125.612732,
+          7.071424
+        ],
+        "type": "Point"
+      },
+      "id": "address.11780104298749790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Evacuation Site",
+        "name": "Freedom Park",
+        "hours": "",
+        "phone": ""
+      },
+      "geometry": {
+        "coordinates": [
+          125.61165361651933,
+          7.072711840621977
+        ],
+        "type": "Point"
+      },
+      "id": "address.1504101080777130"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Evacuation Center",
+        "name": "Barangay Hall 32 D",
+        "hours": "",
+        "phone": ""
+      },
+      "geometry": {
+        "coordinates": [
+          125.616507,
+          7.06894
+        ],
+        "type": "Point"
+      },
+      "id": "address.18662160207305960"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Evacuation Center",
+        "name": "Santa Ana Elementary School",
+        "hours": "",
+        "phone": ""
+      },
+      "geometry": {
+        "coordinates": [
+          125.619208,
+          7.073474
+        ],
+        "type": "Point"
+      },
+      "id": "address.3847501076015100"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "Evacuation Center",
+        "name": "Kapitan Tomas Elementary School",
+        "hours": "",
+        "phone": ""
+      },
+      "geometry": {
+        "coordinates": [
+          125.609774,
+          7.070554
+        ],
+        "type": "Point"
+      },
+      "id": "address.8508074803994320"
+    }
+
+  ],
+  "type": "FeatureCollection"
+}
